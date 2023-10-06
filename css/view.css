@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Heading */
+body{
+    position: relative;
+}
+h1{
+    margin: 30px;
+    margin-top: 60px;
+    text-align: center;
+    color: rgb(244, 140, 61);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.details{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.details img{
+    width: 300px;
+    transform: translate(210%,0);
+    margin: 20px;
+    cursor: pointer;
+}
+
+.details .item{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.details .item label{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+.details .item span{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.details .butts{
+    margin: 10px;
+    margin-bottom: 30px;
+}
+.details .butts a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: rgb(244, 140, 61);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+}

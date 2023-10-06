@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Heading */
+body{
+    position: relative;
+}
+h1{
+    margin: 30px;
+    margin-top: 60px;
+    text-align: center;
+    color: rgb(244, 140, 61);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* form */
+
+.form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+    left: 400px;
+    width: 800px;
+}
+
+.form form label{
+    font-size: 19px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* placeholders */
+
+.form form input::placeholder,textarea::placeholder{
+    color: gray;
+    font-size: 18px;
+}
+
+/* text box */
+.form form input[type=text]{
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+}
+
+/* text area size */
+textarea{
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    resize: none;
+}
+
+/* picture */
+
+input[type=file]{
+    display: none;
+}
+.pic{
+    margin: 5px;
+}
+.pic a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(214, 133, 57);
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    margin: 10px;
+}
+
+/* Submit */
+
+.submit{
+    margin: 10px;
+    margin-top: 20px;
+    width: 500px;
+    position: relative;
+    left: 150px;
+    cursor: pointer;
+}
+input[type=submit]{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    background-color: rgb(60, 197, 153);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.back{
+    margin: 10px;
+    margin-top: 20px;
+    width: 500px;
+    position: relative;
+    left: 550px;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    background-color: rgb(60, 197, 153);
+    color: #fff;
+    border: none;
+}
